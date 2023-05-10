@@ -41,7 +41,7 @@ class MorseCodeDecoder
 
   def self.decode(message)
     decoded_message = ''
-    words = message.split('   ')
+    words = message.split('')
     words.each { |word| decoded_message << decode_word(word) << ' ' }
     decoded_message.strip
   end
