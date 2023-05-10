@@ -47,18 +47,3 @@ class MorseCodeDecoder
   end
 end
 
-character = '.-'
-decoded_character = MorseCodeDecoder.decode_char(character)
-puts decoded_character
-
-word = '-- -.--'
-decoded_word = MorseCodeDecoder.decode_word(word)
-puts decoded_word
-
-message1 = '-- -.--   -. .- -- .'
-decoded_message1 = MorseCodeDecoder.decode(message1)
-puts decoded_message1
-
-message2 = '      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
-decoded_message2 = MorseCodeDecoder.decode(message2)
-puts decoded_message2
