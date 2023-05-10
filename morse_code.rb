@@ -46,4 +46,3 @@ class MorseCodeDecoder
     decoded_message.strip
   end
 end
-
