@@ -31,7 +31,7 @@
 
 # 📖 Demorse Code<a name="about-project"></a>
 
-> This is ruby code to decode morse code.
+> This is a ruby program to decode morse code into meaningful characters, words and sentence.
 
 ## 🛠 Built With <a name="built-with"></a>
 
