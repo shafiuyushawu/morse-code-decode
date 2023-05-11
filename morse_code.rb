@@ -27,22 +27,21 @@ class MorseCodeDecoder
     '-.--' => 'Y',
     '--..' => 'Z'
   }.freeze
-
   def self.decode_char(code)
     MORSE_CODE[code]
   end
 
   def self.decode_word(word)
     decoded_word = ''
-    characters = word.split
+    characters = word.split(' ')
     characters.each { |char| decoded_word << decode_char(char) }
-    decoded_word
+    decoded_word << ' '
   end
 
   def self.decode(message)
     decoded_message = ''
-    words = message.split
-    words.each { |word| decoded_message << decode_word(word) << ' ' }
+    words = message.split('   ')
+    words.each { |word| decoded_message << decode_word(word) }
     decoded_message.strip
   end
 end
