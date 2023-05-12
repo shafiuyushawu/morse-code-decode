@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h1><b>My Enumerable</b></h1>
+  <h1><b>Morse Code Decoder</b></h1>
 
 </div>
 
